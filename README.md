@@ -1,6 +1,6 @@
 # HDLBits-Verilog-Practice
-My codes and notes for HDLBits:https://hdlbits.01xz.net/wiki/Main_Page
+Trying to put my codes for HDLBits on Github. This is also a review for those problems.
 
-It's a good website for learning and reviewing your verilog skill.
+HDLBits(https://hdlbits.01xz.net) is a good website for learning and reviewing verilog skill.
 
-(I'm not sure if these problems are too easy for a interview...but at least you can do some practice of Verilog)
+(I'm not sure if these problems are too easy for a interview...but at least I do practiced my Verilog programming skill)
