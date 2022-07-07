@@ -1,5 +1,5 @@
 # HDLBits-Verilog-Practice
-Trying to put my codes for HDLBits on Github. This is also a review for those problems.
+Trying to put my codes for HDLBits on Github. This is also a good way for reviewing those problems.
 
 HDLBits(https://hdlbits.01xz.net) is a good website for learning and reviewing verilog skill.
 
