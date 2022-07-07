@@ -1,5 +1,5 @@
 # HDLBits-Verilog-Practice
-codes and notes for HDLBits:https://hdlbits.01xz.net/wiki/Main_Page
+My codes and notes for HDLBits:https://hdlbits.01xz.net/wiki/Main_Page
 
 It's a good website for learning and reviewing your verilog skill.
 
