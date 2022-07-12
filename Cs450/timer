@@ -16,5 +16,5 @@ module top_module(
                 counter<=counter-1'b1;
         end
     
-    assign tc=counter?0:1;
+    assign tc=counter?1'b0:1'b1;
 endmodule
