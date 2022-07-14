@@ -13,7 +13,7 @@ module top_module(
     input [6:0] train_history,
     input [6:0] train_pc
 ); 
-    reg [1:0] PHT[127:0];
+    logic [1:0] PHT[127:0];
     
     always_ff@(posedge clk or posedge areset) 
         begin
