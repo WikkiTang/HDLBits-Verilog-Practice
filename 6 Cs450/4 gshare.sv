@@ -45,7 +45,7 @@ module top_module(
             	PHT[train_history ^ train_pc] <= (PHT[train_history ^ train_pc] == 2'b00) ? 2'b00 : (PHT[train_history ^ train_pc] - 1'b1);
             end
     	end
-
+//different always block for different output
     assign predict_taken = PHT[predict_history ^ predict_pc][1];
             
 endmodule
