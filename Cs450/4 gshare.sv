@@ -15,7 +15,7 @@ module top_module(
 ); 
     reg [1:0] PHT[127:0];
     
-    always @(posedge clk or posedge areset) 
+    always_ff@(posedge clk or posedge areset) 
         begin
         if (areset) 
             begin
@@ -30,7 +30,7 @@ module top_module(
             end
         end
             
-     always @(posedge clk or posedge areset)   
+     always_ff@(posedge clk or posedge areset)   
         begin
         if (areset) 
         	begin
