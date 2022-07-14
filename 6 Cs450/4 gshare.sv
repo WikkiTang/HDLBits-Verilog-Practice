@@ -14,7 +14,7 @@ module top_module(
     input [6:0] train_pc
 ); 
     logic [1:0] PHT[127:0];
-    
+  //different always block for different output  
     always_ff@(posedge clk or posedge areset) 
         begin
         if (areset) 
@@ -45,7 +45,7 @@ module top_module(
             	PHT[train_history ^ train_pc] <= (PHT[train_history ^ train_pc] == 2'b00) ? 2'b00 : (PHT[train_history ^ train_pc] - 1'b1);
             end
     	end
-//different always block for different output
+
     assign predict_taken = PHT[predict_history ^ predict_pc][1];
             
 endmodule
