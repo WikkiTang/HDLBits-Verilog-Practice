@@ -1,4 +1,3 @@
-```verilog
 module top_module(
     input clk,
     input areset,
@@ -50,4 +49,3 @@ module top_module(
     assign predict_taken = PHT[predict_history ^ predict_pc][1];
             
 endmodule
-```
